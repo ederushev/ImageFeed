@@ -37,17 +37,9 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o0k-is-ktG" userLabel="gradientView" customClass="GradientView" customModule="ImageFeed" customModuleProvider="target">
-                                                    <rect key="frame" x="16" y="202" width="361" height="30"/>
+                                                <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="o0k-is-ktG" userLabel="gradientView" customClass="GradientView" customModule="ImageFeed" customModuleProvider="target">
+                                                    <rect key="frame" x="24.000000000000007" y="209" width="101.66666666666669" height="15"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="OHx-ec-3KM"/>
-                                                    </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                            <integer key="value" value="16"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="27 августа 2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mwI-LV-Dv8" userLabel="dateLabel">
                                                     <rect key="frame" x="20" y="110" width="353" height="15"/>
@@ -64,15 +56,16 @@
                                                 <constraint firstItem="mwI-LV-Dv8" firstAttribute="bottom" secondItem="AW0-Ha-Xf0" secondAttribute="bottom" constant="-8" id="1UY-dI-EDb"/>
                                                 <constraint firstItem="AW0-Ha-Xf0" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mwI-LV-Dv8" secondAttribute="trailing" constant="8" id="7aq-AE-hf3"/>
                                                 <constraint firstItem="AW0-Ha-Xf0" firstAttribute="top" secondItem="okw-Yb-LQE" secondAttribute="top" constant="4" id="BvP-kO-6rN"/>
-                                                <constraint firstItem="o0k-is-ktG" firstAttribute="width" secondItem="AW0-Ha-Xf0" secondAttribute="width" id="DME-cA-ROA"/>
                                                 <constraint firstItem="d0l-58-BHu" firstAttribute="top" secondItem="AW0-Ha-Xf0" secondAttribute="top" id="FqR-f8-jhS"/>
                                                 <constraint firstAttribute="trailing" secondItem="AW0-Ha-Xf0" secondAttribute="trailing" constant="16" id="OLj-So-ooh"/>
                                                 <constraint firstAttribute="bottom" secondItem="AW0-Ha-Xf0" secondAttribute="bottom" constant="4" id="P2O-I5-rmS"/>
                                                 <constraint firstItem="AW0-Ha-Xf0" firstAttribute="leading" secondItem="okw-Yb-LQE" secondAttribute="leading" constant="16" id="TeZ-Cj-fg8"/>
                                                 <constraint firstItem="AW0-Ha-Xf0" firstAttribute="trailing" secondItem="d0l-58-BHu" secondAttribute="trailing" id="ajY-uy-Tfg"/>
                                                 <constraint firstItem="mwI-LV-Dv8" firstAttribute="leading" secondItem="AW0-Ha-Xf0" secondAttribute="leading" constant="8" id="bJs-0U-Be5"/>
-                                                <constraint firstItem="o0k-is-ktG" firstAttribute="bottom" secondItem="AW0-Ha-Xf0" secondAttribute="bottom" id="epF-cr-nGR"/>
-                                                <constraint firstItem="o0k-is-ktG" firstAttribute="leading" secondItem="AW0-Ha-Xf0" secondAttribute="leading" id="lFR-QQ-oha"/>
+                                                <constraint firstItem="o0k-is-ktG" firstAttribute="width" secondItem="mwI-LV-Dv8" secondAttribute="width" id="cJk-MC-ivf"/>
+                                                <constraint firstItem="o0k-is-ktG" firstAttribute="leading" secondItem="mwI-LV-Dv8" secondAttribute="leading" id="jnp-ty-eF0"/>
+                                                <constraint firstItem="o0k-is-ktG" firstAttribute="bottom" secondItem="mwI-LV-Dv8" secondAttribute="bottom" id="ree-Eq-3M3"/>
+                                                <constraint firstItem="o0k-is-ktG" firstAttribute="top" secondItem="mwI-LV-Dv8" secondAttribute="top" id="zWi-Je-x7u"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" name="YP Black (iOS)"/>
